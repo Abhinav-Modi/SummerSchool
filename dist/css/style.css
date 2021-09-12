@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#141e30), to(#243b55));
+  background: linear-gradient(#141e30, #243b55);
+  color: #fefefe;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #141e30;
+  min-height: 7vh;
+  font-family: "Roboto", sans-serif;
+}
+
+nav .logo {
+  color: #e2e2e2;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo h4 {
+  margin: 0 1rem;
+}
+
+nav .logo_iste {
+  height: 55px;
+  float: left;
+  border-radius: 50%;
+}
+
+nav .domain_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 12px;
+  vertical-align: middle;
+}
+
+nav .profile_image {
+  width: 30px;
+  height: 30px;
+  margin: 0 12px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #21212b;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+nav .logout_image {
+  width: 30px;
+  height: 30px;
+  margin: 0 12px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #21212b;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+nav .links_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+}
+
+nav .links_nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .links_nav a {
+  color: #e2e2e2;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.main .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .domain {
+  background-color: #243b55;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: rgba(20, 30, 48, 0.7) 0px 4px 20px 0px;
+          box-shadow: rgba(20, 30, 48, 0.7) 0px 4px 20px 0px;
+  width: 45%;
+  font-family: "Roboto", sans-serif;
+}
+
+.main .domain img {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+.main .domain h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.main .domain p {
+  opacity: 0.8;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.main .domain a {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: #141e30;
+  color: #fefefe;
+  border: 1px solid #221132;
+  border-radius: 0.6rem;
+}
+
+.main .domain a:hover {
+  background: #fff;
+  color: #232b38;
+  border: 1px solid #232b38;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*# sourceMappingURL=style.css.map */
